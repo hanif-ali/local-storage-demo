@@ -27,4 +27,4 @@ And use the JSON `parse` while retrieving them back
 memos = JSON.parse(localStorage.getItem("logs"));
 ```
 
-Note: `localStorage` is hightly inseure and should never be used to store any kind of private data
+Note: `localStorage` is highly insecure and should never be used to store any kind of private data
