@@ -1,0 +1,42 @@
+body{
+    margin: 30px;
+}
+.memo_container{
+    width: 80%;
+    max-width: 400px;
+    min-width: 300px;
+    margin: 1em auto;
+}
+.fancy-input[type="text"]{
+    width: 100%;
+    padding: 9px;
+    margin: 1em 0em;
+    border-radius: 4px;
+    border: 1px solid navy;
+    outline: none;
+}
+.fancy-submit{
+    border-style: none;
+    border-radius: 4px;
+    background: white;
+    color: navy;
+    border: 1px solid navy;
+    padding: 8px;
+    outline: none;
+    width: 6em
+}
+.fancy-submit:hover{
+    color:white;
+    background: rgba(0,0,128,0.6)
+}
+
+.memo_log_container{
+    margin-top: 2em;
+}
+.memo{
+    border: 1px solid green;
+    background: #fafef6;
+    margin-bottom: 1em;
+    padding: 11px;
+    border-radius: 5px;
+}

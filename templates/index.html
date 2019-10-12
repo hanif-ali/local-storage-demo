@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <meta name="charset" value="utf-8">
+        <title>Local Storage Test</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+        <script src="{{url_for('static', filename='script.js')}}" defer></script>
+    </head>
+    <body>
+        <div class="memo_container">
+            <div class="memo_form_container">
+                <form class="memo_form" id="memo_form">
+                    <input type="text" class="fancy-input" id="memo_text" placeholder="Memo">
+                    <input type="submit" class="fancy-submit" value="Save" id="memo_save">
+                    <input type="button" class="fancy-submit" value="Clear" id="clear_btn">
+                </form>
+            </div>
+            <div class="memo_logs_container" id="memo_logs_container">
+            </div>
+        </div>
+    </body>
+</html>
